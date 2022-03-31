@@ -17,4 +17,8 @@ How to run:
   This will start both the server and client as well as open the client in a new window.
 
   **this project was created in vs code using yarn package manager and has not been tested in other enviroments or with npm. Though it should operate
-  similarly.  
+  similarly. The database should be preloaded with options. If this fails use postman or simialar enviroment to make a post request to manually add the contents 
+  url:http://localhost:5001/colors
+  body: {
+    "colors":[{"color":"red","hexCode":"#FF0000"}, {"color":"orange","hexCode":"#FFA500"}, {"color":"yellow","hexCode":"#FFFF00"}, {"color":"green","hexCode":"#00FF00"}, {"color":"blue","hexCode":"#0000FF"}, {"color":"indigo","hexCode":"#4B0082"},{"color":"violet","hexCode":"#8F00FF"}] 
+   } 
