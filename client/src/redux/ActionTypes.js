@@ -1,0 +1,5 @@
+export const SET_ALL_COLORS = 'SET_ALL_COLORS'
+export const SET_FAVORITE_COLOR = 'SET_FAVORITE_COLOR'
+
+export const SET_HISTORY = 'SET_HISTORY'
+
