@@ -10,8 +10,9 @@ Future addditions:
 
 How to run: 
   1) clone repo
-  2) run 'npm i' or 'yarn' to install dependencies 
-  3) inside the root of the project run command 'npm dev' or 'yarn dev'. 
+  2) run 'npm i' or 'yarn' to install dependencies in root
+  3) change directory to 'client' and run 'npm i' or 'yarn' to install     dependencies in client.
+  4) inside the root of the project run command 'npm dev' or 'yarn dev'. 
   
   This will start both the server and client as well as open the client in a new window.
 
